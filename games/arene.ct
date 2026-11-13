@@ -1,0 +1,21 @@
+# Aventure textuelle en Citron
+print "=== LA QUETE DE CITRON ==="
+or = 100
+pv = 50
+
+print "Or initial :"
+print or
+print "Points de vie :"
+print pv
+
+print "Un monstre attaque !"
+degats = 20
+pv = pv - degats
+print "PV restants :"
+print pv
+
+print "Victoire ! Tu gagnes du tresor."
+butin = 75
+or = or + butin
+print "Or final :"
+print or

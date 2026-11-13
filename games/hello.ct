@@ -1,0 +1,19 @@
+# Mini-jeu : Devine le nombre secret
+secret = 42
+essai = 0
+coups = 0
+
+print "=== JEU DU NOMBRE SECRET ==="
+while essai != secret
+    input "Votre proposition : ", essai
+    coups = coups + 1
+    if essai > secret
+        print "C'est moins !"
+    end
+    if essai < secret
+        print "C'est plus !"
+    end
+end
+
+print "Bravo ! Trouve en : "
+print coups
